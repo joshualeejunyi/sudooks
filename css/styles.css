@@ -142,5 +142,6 @@ button {
     width: 80%;
     max-width: 150px;
     height: 5vh;
+    min-height: 50px;
     max-height: 50px;
 }
