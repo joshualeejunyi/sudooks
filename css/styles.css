@@ -99,7 +99,7 @@ tr:nth-last-of-type(3n) td {
     margin: 0 auto;
 }
 
-.postal input[type=number] {
+.postal input[type=tel] {
     width: 50%;
     max-width: 250px;
     font-size: 25px;
@@ -120,11 +120,11 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type=tel] {
   -moz-appearance: textfield;
 }
 
-input[type=number]:focus {
+input[type=tel]:focus {
   outline: none;
 }
 
@@ -144,4 +144,14 @@ button {
     height: 5vh;
     min-height: 50px;
     max-height: 50px;
+}
+
+td input{
+    background-color: transparent;
+    width: 20px;
+    color: lawngreen;
+    font-size: 23px;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    border: none;
 }
