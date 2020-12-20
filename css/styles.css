@@ -76,6 +76,7 @@ table {
 
 td {
     border: 3px solid lawngreen;
+    font-weight: bold;
 }
 
 td:nth-last-of-type(3n) {
@@ -149,9 +150,11 @@ button {
 td input{
     background-color: transparent;
     width: 20px;
-    color: lawngreen;
+    color: white;
     font-size: 23px;
     font-family: "Courier New", monospace;
     text-align: center;
     border: none;
+/*    text-decoration: underline;*/
+    border-bottom: 2px solid white;
 }
