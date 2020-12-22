@@ -5,7 +5,7 @@ function checkNum() {
     if (elm.value == 456929) {
         elm.style.display = "none";
         correcto.style.color = "lawngreen";        
-        var message = "Correct!<br>456929";
+        var message = "Correct! PLEASE text your leaders NOW and figure out where to go.<br>456929";
         correcto.innerHTML = message;
         
         var submitbtn = document.getElementById("submitbtn")
